@@ -1,0 +1,95 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin:20px;
+    padding:0;
+    background-color:#ffe4e1; /* Changed to a light rose pink background */
+}
+
+img{
+   margin-left: 39%;
+}
+
+h1 {
+    text-align: center;
+    color: #c71585; /* Darker rose pink for the heading */
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffe4e1; /* Matches body background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+fieldset {
+     border: 2px solid #db7093; /* Rose pink border */
+     border-radius: 8px;
+     padding: 20px;
+     margin-bottom: 20px;
+     background-color: #fff0f5; /* Lighter rose pink */
+     margin: 10px;
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #c71585; /* Darker rose pink for the legend */
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    color: #c71585; /* Darker rose pink for labels */
+}
+
+input, textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #db7093; /* Rose pink border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 90px;
+}
+
+button {
+    background-color: #c71585; /* Darker rose pink for button */
+    color: white;
+    padding: 14px 20px;
+    margin: 1px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #db7093; /* Rose pink border */
+    border-radius: 8px;
+    background-color: #fff0f5; /* Lighter rose pink background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2{
+    color: #c71585; /* Darker rose pink for headings in resume output */
+}
+.profilepicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px #c71585;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    object-fit: cover;
+}
+
